@@ -71,3 +71,14 @@
 ```
 ## Experience
 - Only couple of pet projects
+
+## Education
+- UkrSURT, Kharkiv, Ukraine, Specialist (Master Degree) – "Railway Constructions".
+- English School "Green Forest".
+- Front-End course - Source IT.
+- [The Rolling Scopes School](https://rs.school/)
+
+## Language Skills
+- Ukrainian (native)
+- Russian (native)
+- English (intermediate)
