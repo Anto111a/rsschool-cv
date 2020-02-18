@@ -44,3 +44,7 @@ ul {
 li {
     margin: 5px;
 }
+
+.codeExamples_code {
+    background-color: rgba(98, 191, 187, 0.07);
+}

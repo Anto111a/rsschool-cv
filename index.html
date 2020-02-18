@@ -20,11 +20,11 @@
             <div class="wrapper contactInfo">
                 <h2>Contact Info </h2>
                 <ul>
-                    <li>Telephone - 0958789090fake</li>
-                    <li>gotvjanskii@gmail.com</li>
+                    <li><span>&#9742;</span>Telephone - 0958789090fake</li>
+                    <li><span>&#9993;</span> Mail - gotvjanskii@gmail.com</li>
                 </ul>
             </div>
-            
+
             <div class="wrapper personalQualities">
                 <h2>Personal Qualities</h2>
                 <ul>
@@ -37,6 +37,68 @@
                     <li>Mindfulness.</li>
                     <li>Decency.</li>
                 </ul>
+            </div>
+
+            <div class="wrapper skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li>Basic knowledge HTML/CSS.</li>
+                    <li>Basic knowledge BEM methodology.</li>
+                    <li>Basic knowledge JS.</li>
+                    <li>Tools: GIT, VS Code, Photoshop.</li>
+                </ul>
+            </div>
+
+            <div class="wrapper codeExamples">
+                <h2>Code examples</h2>
+                <pre class="codeExamples_code">
+                    <code>
+        var numberOne;
+        var numberTwo;
+        var mathAct;
+        var answer;
+        $('.btn-info').click(function() {
+            document.getElementById('inp').value=document.getElementById('inp').value + this.value;
+        });
+
+        $('#del').click(function() {
+            document.getElementById('inp').value="";
+        });
+
+        $('.btn-success').click(function() {
+            numberOne=document.getElementById('inp').value;
+            mathAct=this.value;
+            document.getElementById('inp').value="";
+        });
+
+        $('#sqrt').click(function() {
+            var answer=Math.sqrt(parseInt(numberOne));
+            document.getElementById('inp').value=answer;
+        });
+
+        $('#equ').click(function() {
+            numberTwo=document.getElementById('inp').value;
+            numberOne=parseInt(numberOne);
+            numberTwo=parseInt(numberTwo);
+
+            switch (mathAct) {
+                case "*":
+                    answer=numberOne*numberTwo;
+                    break;
+                case "/":
+                    answer=numberOne/numberTwo;
+                    break;
+                case "+":
+                    answer=numberOne+numberTwo;
+                    break;
+                case "-":
+                    answer=numberOne-numberTwo;
+                    break;
+            }
+            document.getElementById('inp').value=answer;
+        });
+                    </code>
+                </pre>
             </div>
             
         </div>
