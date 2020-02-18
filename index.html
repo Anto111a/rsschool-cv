@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My CV</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <section class="main">
+        <div class="container">
+            <div class="wrapper fullNameAndPhoto">
+                <h1 class="fullName">
+                    Anton Hotvianskyi
+                </h1>
+                <img class="myPhoto" alt="my Photo" src="img/dino.jpg">
+            </div>
+
+            <div class="wrapper contactInfo">
+                <h2>Contact Info </h2>
+                <ul>
+                    <li><span>&#9742;</span>Telephone - 0958789090fake</li>
+                    <li><span>&#9993;</span> Mail - gotvjanskii@gmail.com</li>
+                </ul>
+            </div>
+
+            <div class="wrapper personalQualities">
+                <h2>Personal Qualities</h2>
+                <ul>
+                    <li>Communication.</li>
+                    <li>Self-motivation.</li>
+                    <li>Conflict Resolution.</li>
+                    <li>Adaptability.</li>
+                    <li>Learn fast.</li>
+                    <li>Punctuality.</li>
+                    <li>Mindfulness.</li>
+                    <li>Decency.</li>
+                </ul>
+            </div>
+
+            <div class="wrapper skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li>Basic knowledge HTML/CSS.</li>
+                    <li>Basic knowledge BEM methodology.</li>
+                    <li>Basic knowledge JS.</li>
+                    <li>Tools: GIT, VS Code, Photoshop.</li>
+                </ul>
+            </div>
+
+            <div class="wrapper codeExamples">
+                <h2>Code examples</h2>
+                <pre class="codeExamples_code">
+                    <code>
+        var numberOne;
+        var numberTwo;
+        var mathAct;
+        var answer;
+        $('.btn-info').click(function() {
+            document.getElementById('inp').value=document.getElementById('inp').value + this.value;
+        });
+
+        $('#del').click(function() {
+            document.getElementById('inp').value="";
+        });
+
+        $('.btn-success').click(function() {
+            numberOne=document.getElementById('inp').value;
+            mathAct=this.value;
+            document.getElementById('inp').value="";
+        });
+
+        $('#sqrt').click(function() {
+            var answer=Math.sqrt(parseInt(numberOne));
+            document.getElementById('inp').value=answer;
+        });
+
+        $('#equ').click(function() {
+            numberTwo=document.getElementById('inp').value;
+            numberOne=parseInt(numberOne);
+            numberTwo=parseInt(numberTwo);
+
+            switch (mathAct) {
+                case "*":
+                    answer=numberOne*numberTwo;
+                    break;
+                case "/":
+                    answer=numberOne/numberTwo;
+                    break;
+                case "+":
+                    answer=numberOne+numberTwo;
+                    break;
+                case "-":
+                    answer=numberOne-numberTwo;
+                    break;
+            }
+            document.getElementById('inp').value=answer;
+        });
+                    </code>
+                </pre>
+            </div>
+
+            <div class="wrapper experience">
+                <h2>Experience</h2>
+                <ul>
+                    <li>Only couple of pet projects</li>
+                </ul>
+            </div>
+
+            <div class="wrapper education">
+                <h2>Education</h2>
+                <ul>
+                    <li>UkrSURT, Kharkiv, Ukraine, Specialist (Master Degree) – "Railway Constructions".</li>
+                    <li>English School "Green Forest".</li>
+                    <li>Front-End course - Source IT</li>
+                    <li><a href="https://rs.school">The Rolling Scopes School</a></li>
+                </ul>
+            </div>
+            
+            <div class="wrapper languageSkills">
+                <h2>Language Skills</h2>
+                <ul>
+                    <li>Ukrainian (native).</li>
+                    <li>Russian (native).</li>
+                    <li>English (intermediate).</li>
+                </ul>
+            </div>
+            
+        </div>
+    </section>
+</body>
+</html>
