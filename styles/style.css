@@ -1,0 +1,50 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+h1, h2, p, a, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1024px;
+    padding-bottom: 20px;
+}
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom: rgba(123, 231, 152, 0.3) 5px solid;
+    padding-bottom: 15px;
+}
+.fullName {
+    display: block;
+    align-self: center;
+}
+.myPhoto {
+    width: 250px;
+    border: rgba(123, 231, 152, 0.7) 5px solid;
+    border-radius: 15%;
+}
+
+h2 {
+    flex-basis: 51%;
+    margin: 20px;
+}
+ul {
+    flex-basis: 60%;
+    margin: 10px 40px;
+}
+li {
+    margin: 5px;
+}
+
+.codeExamples_code {
+    background-color: rgba(98, 191, 187, 0.07);
+}
