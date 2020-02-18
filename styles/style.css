@@ -32,3 +32,15 @@ h1 {
     border: rgba(123, 231, 152, 0.7) 5px solid;
     border-radius: 15%;
 }
+
+h2 {
+    flex-basis: 51%;
+    margin: 20px;
+}
+ul {
+    flex-basis: 60%;
+    margin: 10px 40px;
+}
+li {
+    margin: 5px;
+}
